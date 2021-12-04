@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  year_established: 1
+  country: MyString
+  description: MyText
+  url: MyString
+  image: MyString
+  trust_score: 1
+  trust_score_rank: 1
+  trade_volume_24h_btc: 9.99
+
+two:
+  name: MyString
+  year_established: 1
+  country: MyString
+  description: MyText
+  url: MyString
+  image: MyString
+  trust_score: 1
+  trust_score_rank: 1
+  trade_volume_24h_btc: 9.99
