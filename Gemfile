@@ -13,8 +13,9 @@ gem 'pg_search'
 gem 'puma', '~> 5.5.2'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 4.2.0'
+# Use CoffeeScript for .coffee assets and views
+gem 'coffee-rails', '~> 5'
 # See https://github.com/rails/execjs#readme for more supported runtimes
-# gem 'mini_racer', platforms: :ruby
 # Turbo bundles several techniques for creating fast, modern, progressively enhanced web applications without using much JavaScript. https://github.com/hotwired/turbo-rails
 gem 'turbo-rails'
 # Hotwire is an alternative approach to building modern web applications without using much JavaScript by sending HTML instead of JSON over the wire https://github.com/hotwired/hotwire-rails

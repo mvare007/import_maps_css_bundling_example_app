@@ -1,4 +1,5 @@
 class CoinGeckoApi::Exchanges
+	# https://www.coingecko.com/en/api/documentation
 	def self.fetch
 		client = CoingeckoRuby::Client.new
 		exchanges = client.exchanges

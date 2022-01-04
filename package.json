@@ -2,6 +2,7 @@
   "name": "import_maps_hotwire_coingecko",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
     "autoprefixer": "^10.4.0",
     "postcss": "^8.4.4",
     "tailwindcss": "^2.2.19"

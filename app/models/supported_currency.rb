@@ -1,0 +1,2 @@
+class SupportedCurrency < ApplicationRecord
+end
