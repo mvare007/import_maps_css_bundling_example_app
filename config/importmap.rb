@@ -7,3 +7,4 @@ pin "@hotwired/turbo-rails", to: "turbo.min.js", preload: true
 pin_all_from "app/javascript/controllers", under: "controllers"
 
 pin 'fontawesome', to: '@fortawesome/fontawesome-free/js/all.js'
+pin 'simple-datatables', to: 'simple-datatables/src/datatable.js'

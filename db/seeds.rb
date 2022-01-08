@@ -6,5 +6,6 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 puts 'Seeding the database'
-CoinGeckoApi::Coins.fetch
-CoinGeckoApi::Exchanges.fetch
+# CoinGeckoApi::Coins.fetch
+# CoinGeckoApi::Exchanges.fetch
+CoinGeckoApi::VsCurrencies.fetch

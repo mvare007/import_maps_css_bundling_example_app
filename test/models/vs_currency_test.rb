@@ -1,6 +1,6 @@
 require "test_helper"
 
-class SupportedCurrencyTest < ActiveSupport::TestCase
+class VsCurrencyTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end

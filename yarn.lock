@@ -276,6 +276,11 @@ cssesc@^3.0.0:
   resolved "https://registry.yarnpkg.com/cssesc/-/cssesc-3.0.0.tgz#37741919903b868565e1c09ea747445cd18983ee"
   integrity sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==
 
+dayjs@^1.10.7:
+  version "1.10.7"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.10.7.tgz#2cf5f91add28116748440866a0a1d26f3a6ce468"
+  integrity sha512-P6twpd70BcPK34K26uJ1KT3wlhpuOAPoMwJzpsIWUxHZ7wpmbdZL/hQqBDfz7hGurYSa5PhzdhDHtt319hL3ig==
+
 defined@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/defined/-/defined-1.0.0.tgz#c98d9bcef75674188e110969151199e39b1fa693"
@@ -819,6 +824,13 @@ run-parallel@^1.1.9:
   integrity sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==
   dependencies:
     queue-microtask "^1.2.2"
+
+simple-datatables@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/simple-datatables/-/simple-datatables-3.2.0.tgz#a30b42c28dffce7772f8151641e40f8e233aa8b8"
+  integrity sha512-lWwrH7SbTHp4SBQmvGty3NFzruzcbz/URUkkcwd8AdnZrQUtSitGwKeJ64qUVv2JXWP+RLOe1xpN8bW4Z6gjSQ==
+  dependencies:
+    dayjs "^1.10.7"
 
 simple-swizzle@^0.2.2:
   version "0.2.2"

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_12_04_163551) do
+ActiveRecord::Schema.define(version: 2022_01_08_203008) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -43,44 +43,8 @@ ActiveRecord::Schema.define(version: 2021_12_04_163551) do
     t.index ["blob_id", "variation_digest"], name: "index_active_storage_variant_records_uniqueness", unique: true
   end
 
-  create_table "coins", force: :cascade do |t|
-    t.string "name"
+  create_table "vs_currencies", force: :cascade do |t|
     t.string "symbol"
-    t.string "contract_address"
-    t.string "image"
-    t.decimal "market_cap"
-    t.integer "market_cap_rank"
-    t.decimal "market_cap_change_24h"
-    t.decimal "market_cap_change_percentage_24h"
-    t.decimal "current_price"
-    t.decimal "circulating_supply"
-    t.decimal "total_supply"
-    t.decimal "max_supply"
-    t.decimal "ath"
-    t.decimal "ath_change_percentage"
-    t.decimal "ath_date"
-    t.decimal "atl"
-    t.decimal "atl_change_percentage"
-    t.decimal "atl_date"
-    t.decimal "high_24h"
-    t.decimal "low_24h"
-    t.decimal "price_change_24h"
-    t.decimal "price_change_percentage_24h"
-    t.decimal "total_volume"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
-  create_table "exchanges", force: :cascade do |t|
-    t.string "name"
-    t.text "description"
-    t.string "country"
-    t.integer "year_established"
-    t.string "url"
-    t.string "image"
-    t.integer "trust_score"
-    t.integer "trust_score_rank"
-    t.decimal "trade_volume_24h_btc"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

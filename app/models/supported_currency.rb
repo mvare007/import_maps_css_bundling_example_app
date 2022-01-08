@@ -1,2 +1,0 @@
-class SupportedCurrency < ApplicationRecord
-end

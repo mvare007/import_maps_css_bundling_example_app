@@ -5,6 +5,7 @@
     "@fortawesome/fontawesome-free": "^5.15.4",
     "autoprefixer": "^10.4.0",
     "postcss": "^8.4.4",
+    "simple-datatables": "^3.2.0",
     "tailwindcss": "^2.2.19"
   },
   "scripts": {
