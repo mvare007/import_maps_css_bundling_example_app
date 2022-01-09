@@ -15,7 +15,6 @@ export default class extends Controller {
 	getData() {
 		fetch(this.urlValue)
 		.then(response => response.json())
-		.then(data => this.datatable.import({ type: "json", data: JSON.stringify(data) })
-		);
+		.then(data => this.datatable.import({ type: "json", data: JSON.stringify(data) }));
 	}
 }
