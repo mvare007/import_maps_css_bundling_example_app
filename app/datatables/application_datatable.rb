@@ -3,8 +3,8 @@ class ApplicationDatatable
     @view = view
   end
 
-  def as_json(_options = {})
+  def as_json(options = {})
     fetch_resource
-    return data
+    return data unless options[:only_json]
   end
 end
