@@ -1,6 +1,6 @@
 module ApplicationHelper
 	def percentage_change_fmt(percentage)
-		is_negative = percentage.to_i.negative?
+		is_negative = percentage.to_f.negative?
 		text_color = is_negative ? 'text-red-500' : 'text-green-500'
 		icon_style = "fas fa-chevron-#{is_negative ? 'down' : 'up'} #{text_color} mr-1"
 		tag.i(nil, class: icon_style) +
